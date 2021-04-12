@@ -278,7 +278,7 @@ U 1 1 608AB146
 P 10200 5700
 F 0 "U103" H 10200 6381 50  0000 C CNN
 F 1 "LM75C" H 10200 6290 50  0000 C CNN
-F 2 "" H 10200 5700 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10200 5700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 10200 5700 50  0001 C CNN
 	1    10200 5700
 	1    0    0    -1  
@@ -364,7 +364,7 @@ AR Path="/5FC173C3/608E34AD" Ref="C?"  Part="1"
 AR Path="/608E34AD" Ref="C104"  Part="1" 
 F 0 "C104" H 5815 3796 50  0000 L CNN
 F 1 "100nF" H 5815 3705 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5738 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5738 3600 50  0001 C CNN
 F 3 "~" H 5700 3750 50  0001 C CNN
 	1    5700 3750
 	1    0    0    -1  
@@ -525,7 +525,7 @@ AR Path="/5FC173C3/608E3519" Ref="R?"  Part="1"
 AR Path="/608E3519" Ref="R106"  Part="1" 
 F 0 "R106" H 8232 3604 50  0000 R CNN
 F 1 "10k" H 8232 3695 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8340 3640 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8340 3640 50  0001 C CNN
 F 3 "~" H 8300 3650 50  0001 C CNN
 	1    8300 3650
 	-1   0    0    1   
@@ -2573,10 +2573,6 @@ $EndComp
 Wire Wire Line
 	2650 5650 2650 5700
 Wire Wire Line
-	2650 5700 2500 5700
-Wire Wire Line
-	2500 5900 2650 5900
-Wire Wire Line
 	2500 6100 2650 6100
 Wire Wire Line
 	2650 6100 2650 6400
@@ -2595,7 +2591,6 @@ Text Label 2650 5900 2    50   ~ 0
 D8
 NoConn ~ 6150 3400
 NoConn ~ 6150 3300
-NoConn ~ 6150 3200
 NoConn ~ 6150 2900
 Text Label 8400 3300 2    50   ~ 0
 D4
@@ -2607,4 +2602,109 @@ Text Label 9750 5600 2    50   ~ 0
 D2|SDA
 Text Label 9750 5700 2    50   ~ 0
 D1|SCL
+$Comp
+L Device:C C?
+U 1 1 60A8D883
+P 10900 5650
+AR Path="/5FC173C3/60A8D883" Ref="C?"  Part="1" 
+AR Path="/60A8D883" Ref="C107"  Part="1" 
+F 0 "C107" H 11015 5696 50  0000 L CNN
+F 1 "100nF" H 11015 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10938 5500 50  0001 C CNN
+F 3 "~" H 10900 5650 50  0001 C CNN
+	1    10900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J103
+U 1 1 60A91DC5
+P 3100 5900
+F 0 "J103" H 3072 5832 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3072 5923 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3100 5900 50  0001 C CNN
+F 3 "~" H 3100 5900 50  0001 C CNN
+	1    3100 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 5800 2800 5800
+Wire Wire Line
+	2800 5800 2800 5700
+Wire Wire Line
+	2500 5700 2650 5700
+Connection ~ 2650 5700
+Wire Wire Line
+	2650 5700 2800 5700
+Wire Wire Line
+	2900 6000 2800 6000
+Wire Wire Line
+	2800 6000 2800 6100
+Wire Wire Line
+	2800 6100 2650 6100
+Connection ~ 2650 6100
+Wire Wire Line
+	2500 5900 2900 5900
+$Comp
+L Device:C C?
+U 1 1 60B17636
+P 7750 5700
+AR Path="/5FC173C3/60B17636" Ref="C?"  Part="1" 
+AR Path="/60B17636" Ref="C108"  Part="1" 
+F 0 "C108" H 7865 5746 50  0000 L CNN
+F 1 "100nF" H 7865 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7788 5550 50  0001 C CNN
+F 3 "~" H 7750 5700 50  0001 C CNN
+	1    7750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW101
+U 1 1 60B1DA8F
+P 10150 3000
+F 0 "SW101" H 10150 3285 50  0000 C CNN
+F 1 "SW_Push" H 10150 3194 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 10150 3200 50  0001 C CNN
+F 3 "~" H 10150 3200 50  0001 C CNN
+	1    10150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW102
+U 1 1 60B1ECE0
+P 10150 3500
+F 0 "SW102" H 10150 3785 50  0000 C CNN
+F 1 "SW_Push" H 10150 3694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 10150 3700 50  0001 C CNN
+F 3 "~" H 10150 3700 50  0001 C CNN
+	1    10150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 3000 10500 3000
+Wire Wire Line
+	10500 3000 10500 3500
+Wire Wire Line
+	10500 3500 10350 3500
+Connection ~ 10500 3500
+Wire Wire Line
+	10500 3500 10500 3700
+$Comp
+L power:GND #PWR0121
+U 1 1 60B261D7
+P 10500 3700
+F 0 "#PWR0121" H 10500 3450 50  0001 C CNN
+F 1 "GND" H 10505 3527 50  0000 C CNN
+F 2 "" H 10500 3700 50  0001 C CNN
+F 3 "" H 10500 3700 50  0001 C CNN
+	1    10500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3000 9850 3000
+Wire Wire Line
+	9950 3500 9850 3500
+Text Label 9850 3000 2    50   ~ 0
+D5|SCK
+Text Label 9850 3500 2    50   ~ 0
+D4
 $EndSCHEMATC

@@ -251,9 +251,9 @@ Wire Wire Line
 	1800 1950 1650 1950
 Text Label 10000 1600 0    50   ~ 0
 C
-Text Label 1650 1550 0    50   ~ 0
-NO
 Text Label 1650 1750 0    50   ~ 0
+NO
+Text Label 1650 1650 0    50   ~ 0
 NC
 $Comp
 L Device:CP C?
@@ -362,7 +362,7 @@ Wire Wire Line
 	1650 1850 1800 1850
 Wire Wire Line
 	1650 1550 1800 1550
-Text Label 1650 1650 0    50   ~ 0
+Text Label 1650 1550 0    50   ~ 0
 C
 Text Label 1650 1950 0    50   ~ 0
 ACL
@@ -443,7 +443,7 @@ U 1 1 60A5C6DC
 P 2100 3100
 F 0 "J202" H 2128 3126 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 2128 3035 50  0000 L CNN
-F 2 "" H 2100 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2100 3100 50  0001 C CNN
 F 3 "~" H 2100 3100 50  0001 C CNN
 	1    2100 3100
 	1    0    0    -1  
