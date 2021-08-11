@@ -1,0 +1,208 @@
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-B_Mask.gbr' ----   Wed Jul 21 10:57:14 2021
+
+D17   --> D100
+D18   --> D101
+D19   --> D102
+D20   --> D103
+D21   --> D104
+D22   --> D105
+D24   --> D106
+D25   --> D107
+D26   --> D108
+D27   --> D109
+D28   --> D110
+D29   --> D111
+D30   --> D112
+D31   --> D113
+D32   --> D114
+D33   --> D115
+D34   --> D116
+D35   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-B_Paste.gbr' ----   Wed Jul 21 10:57:14 2021
+
+D11   --> D118
+D12   --> D119
+D13   --> D120
+D14   --> D121
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-B_SilkS.gbr' ----   Wed Jul 21 10:57:14 2021
+
+D10   --> D122
+D11   --> D123
+D12   --> D124
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-Edge_Cuts.gbr' ----   Wed Jul 21 10:57:14 2021
+
+D10   --> D125
+D11   --> D126
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_Cu.gbr' ----   Wed Jul 21 10:57:14 2021
+
+D17   --> D127
+D18   --> D128
+D19   --> D129
+D20   --> D130
+D21   --> D131
+D22   --> D132
+D24   --> D133
+D25   --> D134
+D26   --> D135
+D27   --> D136
+D28   --> D137
+D29   --> D138
+D30   --> D139
+D31   --> D140
+D32   --> D141
+D33   --> D142
+D34   --> D143
+D35   --> D144
+D36   --> D145
+D37   --> D146
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_Mask.gbr' ----   Wed Jul 21 10:57:14 2021
+
+D16   --> D147
+D19   --> D148
+D20   --> D149
+D21   --> D150
+D22   --> D151
+D23   --> D152
+D24   --> D153
+D25   --> D154
+D26   --> D155
+D27   --> D156
+D28   --> D157
+D29   --> D158
+D30   --> D159
+D31   --> D160
+D32   --> D161
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_Paste.gbr' ----   Wed Jul 21 10:57:14 2021
+
+D11   --> D162
+D12   --> D163
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_SilkS.gbr' ----   Wed Jul 21 10:57:15 2021
+
+D10   --> D164
+D11   --> D165
+D12   --> D166
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-B_Mask.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D17   --> D100
+D18   --> D101
+D19   --> D102
+D20   --> D103
+D21   --> D104
+D22   --> D105
+D24   --> D106
+D25   --> D107
+D26   --> D108
+D27   --> D109
+D28   --> D110
+D29   --> D111
+D30   --> D112
+D31   --> D113
+D32   --> D114
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-B_Paste.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D11   --> D115
+D12   --> D116
+D13   --> D117
+D14   --> D118
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-B_SilkS.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D10   --> D119
+D11   --> D120
+D12   --> D121
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-Edge_Cuts.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D10   --> D122
+D11   --> D123
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_Cu.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D17   --> D124
+D18   --> D125
+D19   --> D126
+D20   --> D127
+D21   --> D128
+D22   --> D129
+D24   --> D130
+D25   --> D131
+D26   --> D132
+D27   --> D133
+D28   --> D134
+D29   --> D135
+D30   --> D136
+D31   --> D137
+D32   --> D138
+D33   --> D139
+D34   --> D140
+D35   --> D141
+D36   --> D142
+D37   --> D143
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_Mask.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D16   --> D144
+D19   --> D145
+D20   --> D146
+D21   --> D147
+D22   --> D148
+D23   --> D149
+D24   --> D150
+D25   --> D151
+D26   --> D152
+D27   --> D153
+D28   --> D154
+D29   --> D155
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_Paste.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D11   --> D156
+D12   --> D157
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\userdata\Arduino\ceci\ceci-hardware\ceci-gerbers\cece-pcb-F_SilkS.gbr' ----   Wed Jul 21 11:03:52 2021
+
+D10   --> D158
+D11   --> D159
+D12   --> D160
+-----------------------------------------------------------------
