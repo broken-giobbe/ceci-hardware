@@ -88,7 +88,7 @@ F 1 "Schottky SOT-23" H 2150 2900 50  0000 C CNN
 F 2 "Diode_SMD:D_SOT-23_ANK" H 2150 3000 50  0001 C CNN
 F 3 "~" H 2150 3000 50  0001 C CNN
 	1    2150 3000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Schottky D102
@@ -99,7 +99,7 @@ F 1 "Schottky SOD-123" H 2450 2900 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 2450 3000 50  0001 C CNN
 F 3 "~" H 2450 3000 50  0001 C CNN
 	1    2450 3000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L pol:a_black_cat EA101
@@ -229,24 +229,6 @@ Wire Wire Line
 	2450 3700 2500 3700
 Wire Wire Line
 	2500 3400 2450 3400
-Wire Wire Line
-	2450 3400 2450 3200
-Wire Wire Line
-	2150 3150 2150 3200
-Wire Wire Line
-	2150 3200 2450 3200
-Connection ~ 2450 3200
-Wire Wire Line
-	2450 3200 2450 3150
-Wire Wire Line
-	2150 2850 2150 2800
-Wire Wire Line
-	2450 2850 2450 2800
-Wire Wire Line
-	2450 2800 2150 2800
-Wire Wire Line
-	2450 2700 2450 2800
-Connection ~ 2450 2800
 Text Notes 700  4550 0    50   ~ 0
 Basic input protection from:\nhttps://www.digikey.com/en/articles/protecting-inputs-in-digital-electronics
 $Comp
@@ -2865,4 +2847,22 @@ Wire Wire Line
 	5400 6250 5500 6250
 Text GLabel 5500 6250 2    50   Input ~ 0
 D8
+Wire Wire Line
+	2450 3400 2450 3250
+Wire Wire Line
+	2450 2850 2450 2750
+Wire Wire Line
+	2450 2750 2150 2750
+Wire Wire Line
+	2150 2750 2150 2850
+Connection ~ 2450 2750
+Wire Wire Line
+	2450 2750 2450 2700
+Wire Wire Line
+	2150 3250 2450 3250
+Wire Wire Line
+	2150 3150 2150 3250
+Connection ~ 2450 3250
+Wire Wire Line
+	2450 3250 2450 3150
 $EndSCHEMATC
