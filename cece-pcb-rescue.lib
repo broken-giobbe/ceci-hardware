@@ -39,4 +39,46 @@ X GND 9 900 -400 300 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# I2C_LCD_display-pol
+#
+DEF I2C_LCD_display-pol LCD 0 40 Y Y 1 F N
+F0 "LCD" -250 -250 50 H V C CNN
+F1 "I2C_LCD_display-pol" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 500 350 -200 0 1 0 N
+S -350 300 300 -100 0 1 0 F
+X VCC 1 -250 600 100 D 50 50 1 1 W
+X GND 2 -100 600 100 D 50 50 1 1 B
+X SCL 3 50 600 100 D 50 50 1 1 I
+X SDA 4 200 600 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# VimarPlana-pol
+#
+DEF VimarPlana-pol VP 0 40 Y Y 1 F N
+F0 "VP" 100 400 50 H V C CNN
+F1 "VimarPlana-pol" 250 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 500 500 0 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# a_black_cat-pol
+#
+DEF a_black_cat-pol EA 0 40 Y Y 1 F N
+F0 "EA" -50 -300 50 H V C CNN
+F1 "a_black_cat-pol" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 180 0 1 0 N
+T 0 400 -50 250 0 0 0 eA Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 #End Library

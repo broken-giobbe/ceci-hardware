@@ -13,6 +13,13 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+*-backups
+
+# According to https://forum.kicad.info/t/new-project-file-format/23705
+# If you use a version control system like Git to track your projects, the
+# .kicad_prl file is the kind of thing you may want to add to your ignored files
+# list so that it does not get checked in.
+*.kicad_prl
 
 # Netlist files (exported from Eeschema)
 *.net
